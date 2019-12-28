@@ -1,5 +1,8 @@
 # Freemius Privacy & Data Tracking Concerns FAQ
-This is a collaborative and thorough collection of privacy and data tracking concerns about Freemius. If you see that we’ve missed a question/concern that worth addressing, or if there’s an FAQ item that could be improved, don’t hesitate to submit a PR. By leveraging the power of the Freemius partners’ network, we’ll be able to craft a much more accurate and richer document that addresses everyone’s concerns.
+This is a collaborative and thorough collection of privacy and data tracking concerns about Freemius. By leveraging the power of the Freemius partners’ network, we’ll be able to craft a much more accurate and richer document that addresses everyone’s concerns.
+
+## Feedback
+If you feel that we’ve missed a question/concern that worth addressing or if an FAQ’s question or its explanation is unclear, please create an issue or a pull request with what you feel should be changed and why. All grammar/spelling corrections are greatly welcome. We’re trying to write these for all levels of users, as well as people who may not speak English proficiently.
 
 ## Table of Contents
 [Introduction](faq-00-intro.md)
