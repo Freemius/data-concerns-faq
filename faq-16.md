@@ -1,0 +1,2 @@
+## Is Freemius GDPR compliant?
+Absolutely! One of the biggest markets for plugin and theme sellers is within the European Union (EU), so we abide by all economic and data regulations in the region. Since we are considered a “reseller” of our partners’ WordPress products, it is vital to our continued operation in Europe that we responsibly meet these regulations on behalf of our selling partners. Please find more information about our GDPR compliance on the blog post we released [announcing GDPR readiness](https://freemius.com/blog/gdpr-wordpress-plugin-theme/).
