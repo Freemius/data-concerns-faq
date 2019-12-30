@@ -6,3 +6,5 @@ If you purchase a ***paid*** plugin or theme that is sold through Freemius, your
 2. **Software updates:** Ongoing connectivity with the licensing engine is essential for receiving automatic security & feature updates of the paid product directly within the WordPress Admin dashboard. To receive these updates, data like your license key, product version, and WordPress version, is periodically sent to the server to check for updates.
 
 This data collection and validation practice is the market standard in the WordPress product space, similar details are collected when purchasing and activating a license for themes, plugins, and add-ons that are sold through other eCommerce solutions like WooCommerce and EDD (Easy Digital Downloads).
+
+## [Next →](faq-03.md)

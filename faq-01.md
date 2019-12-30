@@ -8,3 +8,5 @@ We work closely with our selling partners community, making sure that we develop
 We don’t have any hidden agenda and we’ve been transparent about it from day one. 
 
 This is what we have to say in response to conspiracy theorists - or anyone who has reasonable expectations of their privacy: Our goal is to deliver a platform that gives you a great experience whether you buy or sell WordPress products and nothing more than that.
+
+## [Next →](faq-02.md)

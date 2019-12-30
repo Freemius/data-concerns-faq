@@ -7,3 +7,4 @@ While Freemius does have a [Privacy Policy](https://freemius.com/privacy/) that 
 > 
 > -- Vova Feldman, CEO
 
+## [Start →](faq-01.md)

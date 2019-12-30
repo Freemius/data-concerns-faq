@@ -120,3 +120,5 @@ If a product developer knows that their plugin/theme is typically used in combin
 ---
 
 All this data is collected with the intention of making plugins and themes better and more secure. We help plugin and theme businesses do that by tracking how their users are using the product, learning why they abandon it, what environments are needed to continue supporting, and much more. These valuable data points are key to making data-driven decisions and lead to better UX (user experience), new features, better documentation and other benefits for the customer.
+
+## [Next →](faq-09.md)

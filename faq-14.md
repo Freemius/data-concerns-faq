@@ -1,2 +1,4 @@
 ## Can I hide the pricing page and add-on prices from my client sites?
 Similar to the previous bullet, the Freemius SDK adds a pricing page directly into the product’s settings section within the WP Admin, simplifying the buying experience for you. When it comes to client sites, in many cases, you may not be interested in revealing the prices of the products you purchased for the project to your client. By setting a license for “White-labeling”, just as described in the previous section, all prices generated through the SDK will be hidden from your client within the WP Admin dashboard.
+
+## [Next →](faq-15.md)

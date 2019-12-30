@@ -4,3 +4,5 @@ If at some point after you opt-in or activate a license you wish to opt-out to s
 * Themes: Visit the _Appearance → Themes_ page, open the theme details and click the “Opt Out” button at the theme’s actions footer.How to stop sharing plugins & themes data?
 
 If you have opted-in to usage-tracking or activated a license key without turning off the plugins & themes tracking switch, all SDK versions after 2.3.2 allow you to easily opt-out from sharing updates of plugin & theme data by following the opt-out instructions in the section above. However, instead of totally opting out from Freemius, you can simply turn off the “Plugins & themes tracking” switch in the dialog box that will show up after clicking the “Opt Out” option. This way you maintain all the benefits and restrict privacy of the other products installed on your site.
+
+## [Next →](faq-11.md)

@@ -14,3 +14,5 @@ Flagging a license for “White-labeling” can be done easily from the _User Da
 **Notices:**
 * This feature only works with with SDK 2.3.1 and higher.
 * It can take up to 24 hours until the license “White-labeling” mode is synced into the WP Admin dashboard. If you’d like to expedite the process, navigate to the Account page within the WP Admin dashboard of the product and click the “Sync” link.
+
+## [Next →](faq-14.md)
