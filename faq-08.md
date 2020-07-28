@@ -107,7 +107,7 @@ List of installed plugins & themes (optional)
 #### Why?
 While sharing installed plugins and themes is super valuable, its collection is absolutely optional. You can control whether to share it or not when activating a license key or even when opting in. Simply click the “What permissions are being granted?” shown in the opt-in/license-activation screen, and turn off the plugins & themes tracking by clicking the switch next to the relevant permission: 
 
-![Image of Opt-In Permissions](https://lh5.googleusercontent.com/2K2wqw9I9f4Ha3KPExRH59zcr0dBIToxVRDyZkJhMGPRvYmUqn1O2XOLk3oK14dDY36j6GQHoJ5DcwyPjOjc=w1920-h920)
+![Image of Opt-In Permissions](https://freemius.com/blog/wp-content/uploads/2020/03/freemius-wordpress-sdk-opt-in-permissions.png)
 
 Knowing the plugins and themes that are most commonly used in parallel with a product can help developers in multiple ways:
 
