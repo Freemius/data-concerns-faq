@@ -11,6 +11,8 @@ The table below shows a comprehensive list of all the data we collect and why.
 
 ### **User information**
 
+**Important:** The user information is **_not_** collected when activating a license key.
+
 #### What data?
 * Opted-in user’s first & last name
 * Opted-in user’s email address
