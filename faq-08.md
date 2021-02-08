@@ -13,9 +13,8 @@ The table below shows a comprehensive list of all the data we collect and why.
 
 **Important:** The user information is **_not_** collected when activating a license key.
 
-#### What data?
-* Opted-in user’s first & last name
-* Opted-in user’s email address
+#### Opted-in user’s first & last name
+#### Opted-in user’s email address
 
 #### Why?
 Let’s start with the most important reason - _Security_. 
@@ -49,8 +48,7 @@ When you activate a paid product that is using the Freemius WordPress SDK, the f
 
 ### **Product information**
 
-#### What data?
-Product version
+#### Product version
 
 #### Why?
 Knowing the plugin/theme version being used is super important for many reasons. Here are just two examples:
@@ -59,8 +57,7 @@ Knowing the plugin/theme version being used is super important for many reasons.
 
 2. If the product’s team decides to stop supporting PHP versions that are older than 5.6 in the next release and your hosting provider is still using it (which can potentially break your site) wouldn’t you want to get notified before the new version is released and you hit the update button? I definitely would. This is not just an “edge-case” scenario to justify collecting the product version either - this is a real issue plugin and theme developers have to deal in the WordPress “data-less” ecosystem, which puts your website at risk.
 
-#### What data?
-Product state (active, inactive, uninstalled)
+#### Product state (active, inactive, uninstalled)
 
 #### Why?
 Remember, there are many valid reasons to maintain a direct communication channel between you and the product developer. For example, if you’ve opted-in to usage-tracking and then later uninstalled the product, the developer has no way to know the product is no longer in use, so you may continue receiving feature announcements and other direct email communications that most likely aren’t relevant to you any more.
@@ -71,10 +68,9 @@ Knowing the product’s state helps developers understand the status of the prod
 
 ### **Site information**
 
-#### What data?
-* WordPress version
-* PHP version
-* MySQL version
+#### WordPress version
+#### PHP version
+#### MySQL version
 
 #### Why?
 
@@ -82,8 +78,7 @@ The environment versions are important data points for ongoing development of a 
 
 These data points are even more important for users of paid product(s) as part of the software update mechanism. For example, if a developer wants to introduce a new paid version that uses a core WordPress function that was only added in version 5.3, without knowing the WordPress version that is installed on user sites, an update like that can potentially generate fatal errors. On the other hand, when the installed WP version is known, if it is older than the minimum required version, the update won’t be served to avoid any issues up until the WP version on that site is updated.
 
-#### What data?
-WordPress locale (country + language)
+#### WordPress locale (country + language)
 
 #### Why?
 WordPress is used all over the world and fully translated into dozens of languages. Plugin and theme developers have an interest in expanding their reach and making their products accessible to as many users as possible. With limited information and resources, one option is shooting in the dark and trying to get the product translated into the most widely used global languages. However, the better approach is to identify the top countries and languages (the locale) of the sites where the product is installed, and focus translation efforts on the actual languages and dialects that the users of the product need.
@@ -91,20 +86,17 @@ WordPress is used all over the world and fully translated into dozens of languag
 As an example, [Joe Dolson](https://www.youtube.com/watch?v=ztdxgcF2caE), WP accessibility expert and the developer of the WP to Twitter plugin, has [discovered that almost 30% of the sites using the plugin are in Japanese](https://www.joedolson.com/2016/04/learning-wp-twitter/):
 > The first thing I learned is about internationalization. While the most common language group using this plug-in is English (not surprising), the second most common appears to be Japanese – by a significant margin. I wasn’t expecting that, and it’s very interesting. It’ll definitely be relevant in focusing my efforts on reaching out to translators to improve the internationalization of WP to Twitter.
 
-#### What data?
-Site URL
+#### Site URL
 
 #### Why?
 Knowing the site URL allows developers to learn about how users are using their product in the wild. Being able to see what types of websites are using their product helps in prioritizing the development of new capabilities while accommodating the needs of users based on real use-cases.
 
-#### What data?
-Site IP
+#### Site IP
 
 #### Why?
 The IP of the website server enables identification of the ISP (Internet Service Provider) and hosting company. Combined with the other collected data points, problematic patterns can be identified and solved in scale. For example, if a particular host consistently uses unsupported PHP versions and doesn’t have the PHP cURL extension enabled by default, we can contact the host directly and encourage them to enable cURL by default and upgrade the default PHP version.
 
-#### What data?
-List of installed plugins & themes (optional)
+#### List of installed plugins & themes (optional)
 
 #### Why?
 While sharing installed plugins and themes is super valuable, its collection is absolutely optional. You can control whether to share it or not when activating a license key or even when opting in. Simply click the “What permissions are being granted?” shown in the opt-in/license-activation screen, and turn off the plugins & themes tracking by clicking the switch next to the relevant permission: 
