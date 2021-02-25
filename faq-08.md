@@ -24,7 +24,7 @@ Security issues are inevitable in the software world. Whether developers like it
 If the plugin or theme developer has no way to communicate with their users, how will you know about the security vulnerability that is currently putting your site at risk of being hacked? The only way you might find out about the risk would be for the developer to release a public announcement or an update/patch and hope that you’ll notice it before any hackers do. That’s super risky since it raises awareness and creates an opportunity for hackers to exploit the situation. Therefore, the ability for the product developer to communicate with their users in a private manner is essential.
 
 There are many more valid reasons to maintain a direct communication channel between you and the product developer. Here is a short list of possible use-cases (again, not exhaustive):
-* Thank you for being a loyal user or for purchasing
+* Thanking you for being a loyal user or for purchasing
 * Ask for your feedback on the product or a new feature for ongoing product improvement
 * Apologize for making some kind of mistake. Maybe a release accidentally contained a major bug and took your entire website down, or any other number of problems that can be caused by bugs or code conflicts. 
 * Let you know about special promotions or discounts like Black Friday / Cyber Monday / Giving Tuesday
@@ -55,14 +55,14 @@ Knowing the plugin/theme version being used is super important for many reasons.
 
 1. We mentioned security before, but if the developer finds that there’s a security vulnerability in a specific plugin version, they can easily identify which users need to be notified. Without knowing what version you have installed, the developer would normally have to reach out to all their users, unnecessarily bothering some portion of them with information they don’t need to know.
 
-2. If the product’s team decides to stop supporting PHP versions that are older than 5.6 in the next release and your hosting provider is still using it (which can potentially break your site) wouldn’t you want to get notified before the new version is released and you hit the update button? I definitely would. This is not just an “edge-case” scenario to justify collecting the product version either - this is a real issue plugin and theme developers have to deal in the WordPress “data-less” ecosystem, which puts your website at risk.
+2. If the product’s team decides to stop supporting PHP versions that are older than 5.6 in the next release and your hosting provider is still using it (which can potentially break your site) wouldn’t you want to get notified before the new version is released and you hit the update button? I definitely would. This is not just an “edge-case” scenario to justify collecting the product version either - this is a real issue plugin and theme developers have to deal with in the WordPress “data-less” ecosystem, which puts your website at risk.
 
 #### Product state (active, inactive, uninstalled)
 
 #### Why?
 Remember, there are many valid reasons to maintain a direct communication channel between you and the product developer. For example, if you’ve opted-in to usage-tracking and then later uninstalled the product, the developer has no way to know the product is no longer in use, so you may continue receiving feature announcements and other direct email communications that most likely aren’t relevant to you any more.
 
-When opting into during license activation for a paid product, the product state becomes even more important. For example, wouldn’t you want to reuse a license? If Freemius won’t be aware of a product’s deactivation/uninstall, the system would have on record that the license is still in use by the site, hence you wouldn’t be able to reuse the license on another website of yours.
+When opting in during license activation for a paid product, the product state becomes even more important. For example, wouldn’t you want to reuse a license? If Freemius won’t be aware of a product’s deactivation/uninstall, the system would have on record that the license is still in use by the site, hence you wouldn’t be able to reuse the license on another website of yours.
 
 Knowing the product’s state helps developers understand the status of the product on your site. This allows for transparency at all levels, including if there is a refund request or payment dispute, a log of activations, deactivations, and uninstallations keeps everyone honest about whether or not refunds are possible or justified given the circumstances.
 
@@ -74,7 +74,7 @@ Knowing the product’s state helps developers understand the status of the prod
 
 #### Why?
 
-The environment versions are important data points for ongoing development of a plugin or theme. For example, let's say that a developer is considering to drop support for PHP 5.3 and maybe even require PHP 7.0 as the minimum required PHP version to be able to take advantage of the modern syntax of the programming language for better code maintenance. Without knowing how many sites are using older PHP versions and without having a way to contact those site owners in advance, the product will always get “stuck” at the oldest PHP version that WordPress core supports. The same reasoning applies to the WordPress and MySQL versions.
+The environment versions are important data points for ongoing development of a plugin or theme. For example, let's say that a developer is considering dropping support for PHP 5.3 and maybe even require PHP 7.0 as the minimum required PHP version to be able to take advantage of the modern syntax of the programming language for better code maintenance. Without knowing how many sites are using older PHP versions and without having a way to contact those site owners in advance, the product will always get “stuck” at the oldest PHP version that WordPress core supports. The same reasoning applies to the WordPress and MySQL versions.
 
 These data points are even more important for users of paid product(s) as part of the software update mechanism. For example, if a developer wants to introduce a new paid version that uses a core WordPress function that was only added in version 5.3, without knowing the WordPress version that is installed on user sites, an update like that can potentially generate fatal errors. On the other hand, when the installed WP version is known, if it is older than the minimum required version, the update won’t be served to avoid any issues up until the WP version on that site is updated.
 
