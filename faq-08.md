@@ -64,7 +64,7 @@ Remember, there are many valid reasons to maintain a direct communication channe
 
 When opting in during license activation for a paid product, the product state becomes even more important. For example, wouldn’t you want to reuse a license? If Freemius won’t be aware of a product’s deactivation/uninstall, the system would have on record that the license is still in use by the site, hence you wouldn’t be able to reuse the license on another website of yours.
 
-Knowing the product’s state helps developers understand the status of the product on your site. This allows for transparency at all levels, including if there is a refund request or payment dispute, a log of activations, deactivations, and uninstallations keeps everyone honest about whether or not refunds are possible or justified given the circumstances.
+Knowing the product’s state helps developers understand the status of the product on your site. This allows for transparency at all levels, including if there is a refund request or payment dispute, a log of activations, deactivations, and uninstallations keep everyone honest about whether or not refunds are possible or justified given the circumstances.
 
 ### **Site information**
 
